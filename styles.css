@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #0da502bf;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #0f1010;
+}
+
+header .logo {
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Section Styling */
+section {
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #1fe639;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Products List */
+.products ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.products ul li {
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #059a3e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #79f2e4;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0c8102;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer nav a {
+    color: #ecf0f1;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: #3498db;
+}
+
+/* Container for layout */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Pseudo-element for section titles */
+h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #2980b9;
+    margin-top: 5px;
+}
+
+/* Pseudo-class for hover effects */
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
